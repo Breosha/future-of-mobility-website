@@ -1,46 +1,110 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #ffffff;
     color: #333333;
+
+    background:linear-gradient(
+        to bottom,
+        #2e00fd 0%,
+         #2e00fd 40%,
+        white 10%,
+        white 100%
+    );
+
+    min-height: 100vh;
+
 }
 
 header {
-    background-color: #003366;
-    color: white;
+    display: flex;
+    justify-content: center;
     padding: 20px;
-    text-align: center;
 }
 
-nav {
-    background-color: #0055a5;
-    padding: 10px;
+.navBar {
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    max-width: 1200px;
+
+    margin: 20px auto;
+    padding: 20px 40px;
+    border-radius: 50px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
+
     padding: 0;
+    margin: 0;
 }
 
 nav a {
-    color: white;
+    color: black;
     text-decoration: none;
+
+    font-weight: 600;
+    font-size: 18px;
+
+
 }
 
 nav a:hover {
-    color: #00cc66;
+    color: #000000;
 }
 
 main {
-    padding: 20px;
+    padding: 40px;
+    text-align: center;
 }
 
+main h1 {
+    color:white;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+main h2 {
+    color:white;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+main p{
+    color:white;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+
+
 button {
-    background-color: #00cc66;
+    background-color: #000000;
     color: white;
     padding: 10px;
     border: none;
+}
+
+/*contact footer*/
+
+.contactSection {
+
+    background-color: #2e00fd;
+
+    color: white;
+
+    text-align: right;
+
+    padding: 80px 20px;
+
+    margin-top: 120px;
 }

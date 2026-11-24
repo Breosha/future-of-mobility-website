@@ -1,0 +1,154 @@
+.thehistory {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.thehistory h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.thehistory h2 {
+    color: #d6e4ff;
+}
+
+.thehistory p {
+    color: white;
+}
+
+
+
+/* =====================================
+   TIMELINE
+===================================== */
+
+.timelineSection {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+.timelineContainer {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: flex-start;
+
+    position: relative;
+
+    margin-top: 120px;
+
+    padding: 50px;
+}
+
+.timelineLine {
+    position: absolute;
+
+    top: 12px;
+    left: 7.5%;
+
+    width: 85%;
+    height: 5px;
+
+    background-color: #2e00fd;
+
+    z-index: 1;
+}
+
+
+
+/* EACH EVENT */
+
+.timelineEvent {
+ position: relative;
+    text-align: center;
+    z-index: 5;
+}
+
+
+
+/* TIMELINE DOT */
+
+.timelineDot {
+
+     width: 30px;
+    height: 30px;
+
+    background-color: #2e00fd;
+
+    border-radius: 50%;
+
+    border: 4px solid white;
+
+    margin: auto;
+
+    position: relative;
+
+    z-index: 2;
+
+    cursor: pointer;
+}
+
+
+
+/* YEAR LABEL */
+
+.year {
+
+    color: black !important;
+
+    font-weight: bold;
+
+    margin-top: 10px;
+}
+
+
+
+/* HIDDEN INFO CARD */
+
+.timelineCard {
+
+    display: none;
+    position: absolute;
+    width: 300px;
+    min-height: 180px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.20);
+    top: -220px;
+    left: -135px;
+    z-index: 10;
+}
+
+
+
+/* SHOW CARD ON HOVER */
+
+.timelineEvent:hover .timelineCard {
+
+    display: block;
+}
+.timelineCard p{
+    color:black !important;
+    font-size:14px;
+    line-height: 1.5;
+}
+
+/*contact footer*/
+
+.contactSection {
+
+    background-color: #2e00fd;
+
+    color: white;
+
+    text-align: right;
+
+    padding: 80px 20px;
+
+    margin-top: 120px;
+}
